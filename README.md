@@ -10,3 +10,4 @@ This a native UI for Windows and Linux to interact with ollama using GUI
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+![](https://github.com/QuantumNovice/ollama-gui/blob/master/demo.png?raw=true)
