@@ -2,7 +2,7 @@
 import { ref, onMounted, watch } from "vue";
 import { invoke } from "@tauri-apps/api/tauri";
 import axios from 'axios';
-import { Ollama } from 'ollama'
+import * as Ollama from 'ollama/browser';
 import MarkdownIt from "markdown-it";
 import MarkdownItHighlightjs from "markdown-it-highlightjs";
 import MarkdownItSub from "markdown-it-sub";
@@ -35,7 +35,7 @@ const page = ref('chat')
 // DOM
 const chat_div = ref(null)
 
-const ollama = new Ollama({ host: 'http://127.0.0.1:11434' })
+const ollama = new Ollama.Ollama({ host: 'http://127.0.0.1:11434' })
 
 
 
